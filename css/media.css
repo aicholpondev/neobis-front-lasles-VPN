@@ -5,12 +5,87 @@
   }
   @media (max-width: 1200px){
 .users{
-text-align: center;
+width: 1200px;
+margin: 0 auto;
+}
+#block container{
+ align-items: center;
+}
+.swipper-general-block{
+  justify-content: space-between;
+}
+.special{
+width: 90%;
+margin: 0 auto;
+}
+#footer{
+  width: 1200px;
 }
   }
   @media(max-width:1024px){
-    .many,
-    .block-general{
-      text-align: center;
+    .users{
+      width: 1024px;
+    }
+
+    .block-general,
+    .swiper-general-block{
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+   .swiper-general,
+   .blocks{
+    margin: 10px 0;
+   }
+  }
+  @media(max-width:992px){
+    .hero,
+    .many{
+      flex-direction: column;
+      align-items: center;
+    }
+    .many-text{
+      margin-top: 20px;
+     
+    }
+    .hero-text{
+      margin-bottom: 20px;
     }
   }
+  @media(max-width:768px){
+    .header-nav a,
+   .header-btn button{
+display: none;
+    }
+    .burger-menu{
+      display: block;
+    }
+    .special{
+     width: 768px;
+    }
+    .blocks{
+     margin-left:50px ;
+    }
+  }
+  @media(max-width:576px){
+
+  }
+  @media(max-width:450px){
+   .hero{
+    margin-left: 30px;
+   }
+   .users{
+    flex-direction: column-reverse;
+    align-items: center;
+   }
+   .footer-general{
+    flex-wrap: wrap;
+   }
+  }
+/* 
+
+768px
+576px
+450px
+400px
+375px
+320px */

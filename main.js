@@ -24,3 +24,23 @@ const swiper = new Swiper(".mySwiper", {
         },
     },
 });
+
+
+
+const btnMenu = document.querySelector('.menu-btn');
+const menu = document.querySelector('.menu-general');
+const btnOpen = document.querySelector('.menu-open');
+const btnClose = document.querySelector('.menu-close');
+
+btnMenu.addEventListener("click", () => {
+    if (menu.style.display === "none") {
+        menu.style.display = "block"
+        menu.style.display = "flex"
+        btnOpen.style.display = "none"
+        btnClose.style.display = "block"
+    } else {
+        menu.style.display = "none"
+        btnOpen.style.display = "block"
+        btnClose.style.display = "none"
+    }
+})
