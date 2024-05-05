@@ -1,3 +1,5 @@
+
+
 *{ padding: 0;
     margin: 0;
 }
@@ -9,7 +11,7 @@ button{
 
 }
 a{
-    text-decoration: none;
+    text-decoration:none ;
 }
 .container{
     width: 90%;
@@ -17,7 +19,7 @@ a{
 }
 body{
     font-family: "Rubik", sans-serif;
-  background: white;
+  
 }
 .header{
     padding: 35px 0;
@@ -100,12 +102,13 @@ body{
 #users{
     padding: 40px 0;
 }
-.users{
+.users{ 
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     border-radius: 16px;
-    width: 1140px;
+    width: 1240px;
      height: 200px;
     background: white;
     box-shadow: 0px 22px 25px -6px rgba(193,187,187,0.75);
@@ -120,30 +123,38 @@ body{
 }
 
 .users-block{
+    
     display: flex;
-  align-items: center;
-    justify-content: space-around;
+  align-items: start;
+ 
     
 }
 .icon{
    
    color: rgb(222, 49, 49);
-    font-size: 20px;
+    font-size: 30px;
    background: #FFECEC;
     border-radius: 50%;
-    padding: 28px;
+    padding: 20px 20px;
 }
 .users-text h2{
 font-size: 25px;
 font-weight: 700;
-margin: 0 0 16px 19px;
+margin-bottom:8px ;
 
 
+}
+.users-text{
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
 }
 .users-text h1{
     font-size: 20px;
     font-weight: 400;
-    margin:0 0 0 19px;
+    /* margin:0 0 0 19px; */
 }
 
 
@@ -163,16 +174,434 @@ width: 383px;
 }
 .many-text p{
     width: 427px;
-  padding: 30px;
+  margin: 15px;
 font-size: 16px;
 }
 
 .many-block{
     display: flex;
     align-items: center;
-    padding-bottom: 30px;
 }
-.many-text h3{
+.many-text p{
     font-size: 16px;
-    padding: 0 10px;
 }
+
+#block{
+    padding: 90px 0;
+}
+
+.block h1{
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 500;
+   margin-top: 10px;
+      
+}
+ 
+.block-text{
+    margin-left: 24px;
+    display: flex;
+    margin-top: 30px;
+}
+.blocks img{
+    margin-top: 60px;
+   
+}
+.block-text ion-icon{
+  color: #2FAB73;
+  font-size: 26px;
+  margin-right: 20px;
+}
+
+
+.block-general{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#block .container{
+max-width: 1140px;    
+}
+.block h1{
+    
+font-size: 35px;
+font-weight: 500;
+}
+.block h5{
+    width: 555px;
+   padding: 30px 0 60px 0;
+font-size: 16px;
+font-weight: 400;
+
+
+}
+.blocks{ 
+   
+    
+     width: 330px;
+    height: 860px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+} 
+.block-text-general{
+    margin-bottom: 50px;
+}
+.blocks h4{
+font-size: 18px;
+font-weight: 600;
+padding: 10px 0;
+}
+.blocks h4 span{
+    font-weight: 400;
+    font-size: 18px;
+  
+}
+
+
+
+.block-general button{
+    margin-bottom: 45px;
+    background: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 5px 45px;
+    color: #F53855;
+    border: 2px solid#F53855 ;
+    
+}
+.block-general button:hover{
+    background: #F53855;
+    color: white;
+    box-shadow: 0px 22px 25px -6px rgba(213,34,34,0.75);
+    -webkit-box-shadow: 0px 22px 25px -6px rgba(213,34,34,0.75);
+    -moz-box-shadow: 0px 22px 25px -6px rgba(213,34,34,0.75);
+}
+
+#global{
+    padding: 30px 0;
+
+}
+.global h1{
+    margin-left: 50px;
+   width: 380px;
+   font-size: 35px;
+   font-weight: 600;
+   
+}
+.global p{
+    width: 555px;
+   padding: 30px 0 100px 0;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+
+}
+.global-brand{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.global-brand :hover{
+    cursor: pointer;
+}
+
+#swiper{
+padding: 50px 0 100px 0 ;
+
+}
+.swiper h1{
+font-size: 35px;
+font-weight: 500;
+padding: 120px 0 0 0;
+text-align: center;
+width: 447px;
+
+}
+.swiper-text{
+    padding-right: 90px;
+}
+.num { 
+font-size: 16px;
+font-weight: 500;
+margin-right: 15px;
+ 
+
+}
+.star ion-icon{
+    border-radius: 50%;
+    color:#FEA250;
+    font-size: 17px;
+    
+
+}
+.swiper-text h2{
+font-size: 18px;
+font-weight: 500;
+}
+.swiper-text h4{
+font-size: 14px;
+font-weight: 400;
+
+
+}
+.swiper p{
+    margin: 16px 0 56px;
+    width: 555px;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+
+}
+.swiper-general p{
+    line-height: 20px;
+    padding: 50px 0 0 20px;
+    text-align: start;
+font-size: 16px;
+font-weight: 400;
+width: 90%;
+
+
+}
+
+
+.swiper-card{
+
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+  
+}
+.star{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.star ion-icon{
+    margin-right: 30px;
+}
+.swiper-general{
+    padding-top: 40px;
+    width: 400px;
+    height: 236px;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+    background:  #FFF;
+}
+.swiper-general-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* sw */
+/* .swiper { */
+    /* width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+/* sw */
+.click{
+    padding-right: 50px;
+    display: flex;
+    justify-content: end;
+   font-size: 40px;
+  
+}
+.click ion-icon{
+    
+    margin: 50px 10px ;
+    padding: 15px 15px;
+    font-size: 20px;
+   color: #F53855;
+    border-radius: 50%;
+    border: 2px solid #F53855;
+
+}
+.click ion-icon:hover{
+    color: white;
+    background: #F53855;
+}
+.special-block {
+position: relative;
+
+
+   
+}
+
+.special{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    border-radius: 10px;
+width: 1140px;
+height: 233px;
+background: white;
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+
+}
+.special-text h2{
+    width: 370px;
+font-size: 35px;
+font-weight: 500;
+}
+.special-text p{
+
+  margin: 15px 25px;
+font-size: 16px;
+font-weight: 400;
+
+}
+.special-btn button{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #FF4343;
+    padding: 15px 45px;
+   
+    border: 2px solid #FF4343;
+    cursor: pointer;
+    box-shadow: 0px 22px 25px -6px rgba(213,34,34,0.75);
+    -webkit-box-shadow: 0px 22px 25px -6px rgba(213,34,34,0.75);
+    -moz-box-shadow: 0px 22px 25px -6px rgba(213,34,34,0.75);
+}
+
+/* footer start */
+#footer{
+  background: #F8F8F8;
+ 
+   height: 563px;
+}
+.footer{
+    padding-top: 220px;
+}
+.footer-general{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.footer-logo-text p{
+    width: 340px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 30px 0;
+   
+    
+}
+.footer-logo-text span{
+  font-size: 16px;
+  font-weight: 500;  
+}
+.footer-icons a img{
+    font-size: 30px;
+   /* width: 50px;
+   height: 50px; */
+ 
+  
+}
+.footer-logo-mini h3{
+    /* padding: 10px 0; */
+   color: #AFB5C0;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.footer-logo-mini span{
+    color: #AFB5C0;
+     font-size: 16px;
+     font-weight: 500;
+     
+ }
+ .footer-nav{
+    display: flex;
+    flex-direction: column;
+ }
+ .footer-nav h2{
+    padding-bottom: 4px;
+font-size: 18px;
+font-weight: 500;
+ }
+ .footer-nav a{
+    padding: 4px 0;
+font-size: 16px;
+font-weight: 400;
+color: #4F5665;
+ }
+
+ /* burger menu */
+ .burger-menu {
+    display: none;
+}
+
+.menu-general {
+    width: 100%;
+    height: 80vh;
+    background: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    animation: menu 1s alternate linear;
+}
+
+@keyframes menu {
+    0% {
+        width: 0;
+    }
+}
+
+
+.menu-general {
+    display: none;
+    border-bottom: 3px solid #22343D;
+}
+
+.menu-btn {
+    background: transparent;
+    font-size: 35px;
+    color: #02897A;
+    /* color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 101;
+}
+
+.menu-open {
+    display: block;
+
+}
+
+
+.menu-close {
+    display: none;
+}
+

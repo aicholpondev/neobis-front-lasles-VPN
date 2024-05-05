@@ -1,0 +1,16 @@
+@media (max-width: 1440px){
+    .container{
+        width: 90%;
+    }
+  }
+  @media (max-width: 1200px){
+.users{
+text-align: center;
+}
+  }
+  @media(max-width:1024px){
+    .many,
+    .block-general{
+      text-align: center;
+    }
+  }
